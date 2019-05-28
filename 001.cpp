@@ -1,7 +1,7 @@
 #include<string>
 #include<iostream>
 using namespace std;
-int text1() {//在一个字符串中找到最长的连续数字
+int text1() {//鍦ㄤ竴涓瓧绗︿覆涓壘鍒版渶闀跨殑杩炵画鏁板瓧
 	string s1;
 	getline(cin, s1);
 	string s2;
@@ -33,5 +33,5 @@ int text1() {//在一个字符串中找到最长的连续数字
 	}
 	if (len > 0) {
 		cout << s2 << endl;
-	}
+	} 
 }
